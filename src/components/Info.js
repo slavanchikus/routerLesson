@@ -1,7 +1,9 @@
 import React from 'react';
 
-export default () => (
+const Info = () => (
   <div>
     Info
   </div>
 );
+
+export default Info;

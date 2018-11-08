@@ -1,7 +1,7 @@
 import React, { Fragment, Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import Content from './Content';
+import Content from './ContentWithPush';
 
 class NewsWithPush extends Component {
   state = {

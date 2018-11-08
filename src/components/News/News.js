@@ -3,7 +3,7 @@ import { Route, Switch, Link } from 'react-router-dom';
 
 import Content from './Content';
 
-export default () => (
+const News = () => (
   <Fragment>
     <nav>
       <ul className="menu">
@@ -41,3 +41,5 @@ export default () => (
     </Switch>
   </Fragment>
 );
+
+export default News;

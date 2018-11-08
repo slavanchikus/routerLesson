@@ -6,7 +6,7 @@ import News from './components/News/News';
 import Info from './components/Info';
 import Home from './components/Home';
 
-export default () => (
+const App = () => (
   <Fragment>
     <Menu />
     <Switch>
@@ -35,3 +35,5 @@ export default () => (
     </Switch>
   </Fragment>
 );
+
+export default App;
